@@ -29,7 +29,7 @@
 * смешивание двух цветов;
 * Работа с именованными CSS-цветами (black, green, white...)
 
-**Все функции для работы с цветом находятся в модуле объекта обработки color1c.epf и в файле [Module.os](https://github.com/Diversus23/color1c/blob/master/Module.os)**
+**Все функции для работы с цветом находятся в модуле объекта обработки color1c.epf и в файле [ObjectModule.bsl](https://github.com/Diversus23/color1c/blob/master/src/color1c/ObjectModule.bsl)**
 
 Автор: Барилко Виталий.
 
