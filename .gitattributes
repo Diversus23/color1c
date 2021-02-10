@@ -1,3 +1,4 @@
 *.epf linguist-language=1C Enterprise
 src/* linguist-language=1C Enterprise
 *.epf linguist-generated
+*.bsl linguist-language=1C Enterprise
