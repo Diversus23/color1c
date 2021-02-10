@@ -612,19 +612,19 @@
 	    s = Окр(delta / max * 100);
 	Иначе
 	    // black
-	    Возврат Новый Структура("h, s, v", 0, 0, 0);
+	    Возврат Новый Структура("h, s, v", 0, 0, v);
 	КонецЕсли;
 
-	Если( r = max ) Тогда
-	    h = ( g - b ) / delta;         // between yellow & magenta
-	ИначеЕсли ( g = max ) Тогда
-	    h = 2 + ( b - r ) / delta;     // between cyan & yellow
+	Если r = max Тогда
+	    h = (g - b) / delta;     	// between yellow & magenta
+	ИначеЕсли g = max Тогда
+	    h = 2 + (b - r) / delta; 	// between cyan & yellow
 	Иначе
-	    h = 4 + ( r - g ) / delta;     // between magenta & cyan
+	    h = 4 + (r - g) / delta; 	// between magenta & cyan
 	КонецЕсли;
 
-	h = Окр(h * 60);            		// degrees
-	Если ( h < 0 ) Тогда 
+	h = Окр(h * 60); // degrees
+	Если h < 0 Тогда 
 	    h = h + 360; 
 	КонецЕсли;
 
