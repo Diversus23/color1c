@@ -1,5 +1,7 @@
 # Универсальные функции для работы с цветом в 1С:Предприятие 8
 
+[![GitHub release](https://img.shields.io/github/release/Diversus23/multisms.svg)](https://github.com/Diversus23/color1c/releases)
+
 ![Логотип](https://softonit.ru/upload/iblock/511/parrot_1417286_640.png "Работа с цветом в 1С")
 
 Как выглядит обработка
