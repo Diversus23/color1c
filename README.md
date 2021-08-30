@@ -1,7 +1,7 @@
 # Универсальные функции для работы с цветом в 1С:Предприятие 8
 
 [![GitHub release](https://img.shields.io/github/release/Diversus23/color1c.svg)](https://github.com/Diversus23/color1c/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Diversus23/color1c/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Diversus23/color1c/blob/master/LICENSE)
 
 ![Логотип](https://softonit.ru/upload/iblock/511/parrot_1417286_640.png "Работа с цветом в 1С")
 
