@@ -1,0 +1,34 @@
+# MIT License
+
+name: Подготовка релиза и публикация в хабе
+# Только события создания и изменения релиза
+on:
+    release:
+        types: [published, edited]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        oscript_version: ['stable']
+        package_mask: ["bin/РаботаСЦветами.epf", "src/ExternalDataProcessors/РаботаСЦветами/ObjectModule.bsl"]
+        
+    steps:
+      # Загрузка проекта
+      - name: Актуализация
+        uses: actions/checkout@v2
+
+      - name: Заливка артифактов
+        uses: actions/upload-artifact@v2
+        with:
+          name: color1c.zip
+          path: ./${{ matrix.package_mask }}
+
+      - name: Заливка в релиз
+        uses: AButler/upload-release-assets@v1.0
+        with:
+          files: ./${{ matrix.package_mask }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
