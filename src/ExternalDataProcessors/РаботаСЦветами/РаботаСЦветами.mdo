@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e09be747-1f6f-4371-95a3-d3e4453ba4ea">
+  <producedTypes>
+    <objectType typeId="00fd2fd3-7b07-4cbb-b148-e72e38128383" valueTypeId="c3a23aea-e70f-4ba2-a755-5e4680f82074"/>
+  </producedTypes>
+  <name>РаботаСЦветами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с цветами</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="c0eef2fb-f9b8-4b7b-8163-ef4a592fb549"/>
+  <defaultForm>ExternalDataProcessor.РаботаСЦветами.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="05daea28-a7ac-482f-8eb8-051b0009e7b4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
