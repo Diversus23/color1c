@@ -548,6 +548,68 @@
               <representation>Auto</representation>
             </extInfo>
           </items>
+          <items xsi:type="form:FormGroup">
+            <name>БлижайшийЦвет</name>
+            <id>213</id>
+            <items xsi:type="form:Button">
+              <name>БлижайшийЦветИзПалитрыCSS</name>
+              <id>215</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>БлижайшийЦветИзПалитрыCSSРасширеннаяПодсказка</name>
+                <id>216</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.БлижайшийЦветИзПалитрыCSS</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Ближайший цвет</value>
+            </title>
+            <extendedTooltip>
+              <name>БлижайшийЦветРасширеннаяПодсказка</name>
+              <id>214</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Popup</type>
+            <extInfo xsi:type="form:PopupGroupExtInfo">
+              <representation>Auto</representation>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2951,7 +3013,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.РаботаСЦветами</types>
+      <types>ExternalDataProcessor.РаботаСЦветами</types>
     </valueType>
     <view>
       <common>true</common>
@@ -3710,6 +3772,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЦветСтиля</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>БлижайшийЦветИзПалитрыCSS</name>
+    <title>
+      <key>ru</key>
+      <value>Из палитры CSS</value>
+    </title>
+    <id>13</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>БлижайшийЦветИзПалитрыCSS</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
