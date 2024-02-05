@@ -3,6 +3,7 @@
 [![GitHub release](https://img.shields.io/github/release/Diversus23/color1c.svg)](https://github.com/Diversus23/color1c/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Diversus23/color1c/blob/master/LICENSE)
 [![https://softonit.ru](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://softonit.ru/)
+[![OpenYellow](https://img.shields.io/endpoint?url=https://openyellow.neocities.org/badges/1/285622112.json)](https://openyellow.notion.site/openyellow/24727888daa641af95514b46bee4d6f2?p=d3e89453aa1e47eb98f4dc0b09f63fe4&amp;pm=s)
 
 ![Логотип](https://softonit.ru/upload/iblock/511/parrot_1417286_640.png "Работа с цветом в 1С")
 
