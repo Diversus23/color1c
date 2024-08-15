@@ -27,29 +27,6 @@ jobs:
         shell: bash
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
         id: extract_branch
-
-      # Установка OneScript конкретной версии
-      - name: Установка OneScript
-        uses: otymko/setup-onescript@v1.1
-        env:
-          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
-        with:
-          version: ${{ matrix.oscript_version }}
-
-      # Установка зависимостей пакета
-      - name: Установка зависимостей
-        run: |
-          opm install opm
-          opm install -l --dev
-          opm install 1testrunner
-          opm install 1bdd
-          opm install notify
-          opm install coverage
-          opm install 1connector
-          opm install v8storage
-          opm install ftp
-          opm install ParserFileV8i
-          opm install coloratos
           
       # Сохраняем файл env.json с настройками среды
       - name: 'Create settings.json file'
