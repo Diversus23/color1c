@@ -37,7 +37,7 @@ jobs:
 
       - name: Извлечение версии пакета
         shell: bash
-        run: echo "##[set-output name=version;]`cat ./src/ExternalDataProcessors/РаботаСЦветами/ObjectModule.bsl | grep "Версия " | sed 's|[^"]*"||' | sed -r 's/".+//'`"
+        run: echo "##[set-output name=version;]`cat ./src/ExternalDataProcessors/РаботаСЦветами/ObjectModule.bsl | grep "// Версия " | sed 's|[^"]*"||' | sed -r 's/".+//'`"
         id: extract_version
 
       # Setup java 17 to be default (sonar-scanner requirement as of 5.x)
