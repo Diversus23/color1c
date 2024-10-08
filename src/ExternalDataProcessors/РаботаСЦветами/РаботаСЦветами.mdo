@@ -10,11 +10,6 @@
   </synonym>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="c0eef2fb-f9b8-4b7b-8163-ef4a592fb549"/>
   <defaultForm>ExternalDataProcessor.РаботаСЦветами.Form.Форма</defaultForm>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
   <forms uuid="05daea28-a7ac-482f-8eb8-051b0009e7b4">
     <name>Форма</name>
     <synonym>
