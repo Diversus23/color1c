@@ -389,6 +389,36 @@
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
+            <items xsi:type="form:Button">
+              <name>СлучайныйПастельныйЦвет</name>
+              <id>389</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>СлучайныйПастельныйЦветРасширеннаяПодсказка</name>
+                <id>390</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.СлучайныйПастельныйЦвет</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -6758,57 +6788,6 @@
       <common>true</common>
     </edit>
   </attributes>
-  <attributes>
-    <name>ТаблицаСочетанияЦветов</name>
-    <title>
-      <key>ru</key>
-      <value>Таблица сочетания цветов</value>
-    </title>
-    <id>55</id>
-    <valueType>
-      <types>ValueTable</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <columns>
-      <name>ЦветФона</name>
-      <title>
-        <key>ru</key>
-        <value>Цвет фона</value>
-      </title>
-      <id>56</id>
-      <valueType>
-        <types>Color</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ЦветТекста</name>
-      <title>
-        <key>ru</key>
-        <value>Цвет текста</value>
-      </title>
-      <id>57</id>
-      <valueType>
-        <types>Color</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-  </attributes>
   <formCommands>
     <name>Конвертировать</name>
     <title>
@@ -7098,6 +7077,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>БлижайшийЦветИзПалитрыПастельныхЦветов</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СлучайныйПастельныйЦвет</name>
+    <title>
+      <key>ru</key>
+      <value>пастельный цвет</value>
+    </title>
+    <id>16</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СлучайныйПастельныйЦвет</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
