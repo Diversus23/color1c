@@ -763,6 +763,49 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
+        <name>ТемныйИлиСветлый</name>
+        <id>391</id>
+        <title>
+          <key>ru</key>
+          <value>Этот цвет</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТемныйИлиСветлый</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ТемныйИлиСветлыйРасширеннаяПодсказка</name>
+          <id>393</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ТемныйИлиСветлыйКонтекстноеМеню</name>
+          <id>392</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <border xsi:type="core:BorderDef">
+            <width>1</width>
+          </border>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
         <name>HexЦвет</name>
         <id>4</id>
         <visible>true</visible>
@@ -6777,6 +6820,24 @@
       <value>Цвет из палитры</value>
     </title>
     <id>54</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТемныйИлиСветлый</name>
+    <title>
+      <key>ru</key>
+      <value>Темный или светлый</value>
+    </title>
+    <id>55</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
